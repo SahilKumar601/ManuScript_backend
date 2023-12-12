@@ -1,0 +1,126 @@
+export default {
+    name:'script',
+    type:'document',
+    title:'Script',
+    fields:[
+        {
+            name:'classId',
+            title:'Class ID',
+            type:'string',
+        },
+        {
+            name:"title",
+            title:'Title',
+            type:'string'
+        },
+        {
+            name:'genre',
+            title:'Genres',
+            type:'string'
+        },
+        {
+            name:'pageNo',
+            title:'Page No',
+            type:'string'
+        },
+        {
+            name:'cpd',
+            title:'CPD',
+            type:'string'
+        },
+        {
+            name:'language',
+            title:'Language',
+            type:'string'
+        },
+        {
+            name:'letters',
+            title:'Letters',
+            type:'string'
+        },
+        {
+            name:'noOfPlamLeaves',
+            title:'Number Of Plam Leaves',
+            type:'number'
+        },
+        {
+            name:'details',
+            title:'Details of Folios',
+            type:'string'
+        },
+        {
+            name:'folio_number',
+            title:'Folio No.',
+            type:'string'
+        },
+        {
+            name:'size',
+            title:'Size',
+            type:'string'
+        },
+        {
+            name:'hole_postion',
+            title:'Hole Postion',
+            type:'string'
+        },
+        {
+            name:'paints',
+            title:'Paints',
+            type:'string'
+        },
+        {
+            name:'condition',
+            title:'Condition',
+            type:'string'
+        },
+        {
+            name:'line',
+            title:'Line',
+            type:'number'
+        },
+        {
+            name:'dimmentions',
+            title:'Dimention',
+            type:'string'
+        },
+        {
+            name:'density',
+            title:'Density of Letters',
+            type:'string'   
+        },
+        {
+            name:'begining',
+            title:'Beginning',
+            type:'string'
+        },
+        {
+            name:'end',
+            title:'Ending',
+            type:'string'
+        },
+        {
+            name:'coloPhone',
+            title:'ColoPhone',
+            type:'string'
+
+        },
+        {
+            name:'notes',
+            title:'Notes',
+            type:'string'
+        },
+        {
+            name:'remarks',
+            title:'Remarks',
+            type:'string'
+        },
+        {
+            name:'image',
+            title:'Image',
+            type:'image',
+            Option:{
+                hotspot:true
+            } 
+        }
+]
+}
