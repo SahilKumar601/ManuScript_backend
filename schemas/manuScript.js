@@ -24,7 +24,7 @@ export default {
             type:'string'
         },
         {
-            name:'cpd',
+            name:'CPD',
             title:'CPD',
             type:'string'
         },
@@ -115,12 +115,10 @@ export default {
             type:'string'
         },
         {
-            name:'image',
-            title:'Image',
-            type:'image',
-            Option:{
-                hotspot:true
-            } 
-        }
+            name:'postedBy',
+            title:'Examined By',
+            type:'reference',
+            to:{type:'author'}
+        },
 ]
 }
