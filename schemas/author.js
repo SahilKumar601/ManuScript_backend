@@ -9,6 +9,16 @@ export default {
             type: 'string',
         },
         {
+            name:'Title',
+            title:'Title',
+            type:'string',
+        },
+        {
+            name:'organization',
+            title:'Organization',
+            type:'string',
+        },
+        {
             name:'image',
             title:'Profile image',
             type:'image',
