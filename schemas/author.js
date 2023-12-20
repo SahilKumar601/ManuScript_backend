@@ -9,26 +9,28 @@ export default {
             type: 'string',
         },
         {
-            name:'Title',
+            name:'author',
+            title:'Author',
+            type: 'string',
+        },
+        {
+            name:'title',
             title:'Title',
             type:'string',
         },
         {
-            name:'organization',
-            title:'Organization',
+            name:'organisation',
+            title:'Organisation',
             type:'string',
         },
         {
             name:'image',
             title:'Profile image',
-            type:'image',
-            options:{
-                hotspot: true,
-            }
+            type:'string',
         },
         {
             name:'coverImage',
-            title:'Cover image',
+            title:'Cover Image',
             type:'image',
             options:{
                 hotspot: true,

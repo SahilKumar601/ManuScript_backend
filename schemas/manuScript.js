@@ -59,7 +59,7 @@ export default {
             type:'string'
         },
         {
-            name:'hole_postion',
+            name:'hole_position',
             title:'Hole Postion',
             type:'string'
         },
@@ -115,10 +115,10 @@ export default {
             type:'string'
         },
         {
-            name:'postedBy',
-            title:'Examined By',
+            name:'author',
+            title:'Author',
             type:'reference',
-            to:{type:'author'}
+            to:[{type:'author'}]
         },
 ]
 }
